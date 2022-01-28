@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3F3B1AEB27A3FC24001DAFD1 /* VanillaSwiftUIToTCAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1AEA27A3FC24001DAFD1 /* VanillaSwiftUIToTCAApp.swift */; };
-		3F3B1AED27A3FC24001DAFD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1AEC27A3FC24001DAFD1 /* ContentView.swift */; };
 		3F3B1AEF27A3FC33001DAFD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B1AEE27A3FC33001DAFD1 /* Assets.xcassets */; };
 		3F3B1AF227A3FC33001DAFD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3B1AF127A3FC33001DAFD1 /* Preview Assets.xcassets */; };
 		3F3B1AFC27A3FC34001DAFD1 /* VanillaSwiftUIToTCATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1AFB27A3FC34001DAFD1 /* VanillaSwiftUIToTCATests.swift */; };
 		3F3B1B0627A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B0527A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITests.swift */; };
 		3F3B1B0827A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B0727A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITestsLaunchTests.swift */; };
+		3F3B1B1827A3FC6B001DAFD1 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B1727A3FC6B001DAFD1 /* ActivityIndicator.swift */; };
+		3F3B1B1C27A3FC92001DAFD1 /* LoginSceneMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B1A27A3FC92001DAFD1 /* LoginSceneMVVM.swift */; };
+		3F3B1B2027A400B1001DAFD1 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B1F27A400B1001DAFD1 /* LoginService.swift */; };
+		3F3B1B2327A40390001DAFD1 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3F3B1B2227A40390001DAFD1 /* ComposableArchitecture */; };
+		3F3B1B2727A403FF001DAFD1 /* HomeScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B2627A403FF001DAFD1 /* HomeScene.swift */; };
+		3F3B1B2927A43859001DAFD1 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B2827A43859001DAFD1 /* ErrorView.swift */; };
+		3F3B1B2B27A439FF001DAFD1 /* LoginSceneTCA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3B1B2A27A439FF001DAFD1 /* LoginSceneTCA.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		3F3B1AE727A3FC24001DAFD1 /* VanillaSwiftUIToTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VanillaSwiftUIToTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3B1AEA27A3FC24001DAFD1 /* VanillaSwiftUIToTCAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaSwiftUIToTCAApp.swift; sourceTree = "<group>"; };
-		3F3B1AEC27A3FC24001DAFD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3F3B1AEE27A3FC33001DAFD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3B1AF127A3FC33001DAFD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F3B1AF727A3FC34001DAFD1 /* VanillaSwiftUIToTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanillaSwiftUIToTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,12 @@
 		3F3B1B0127A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanillaSwiftUIToTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3B1B0527A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaSwiftUIToTCAUITests.swift; sourceTree = "<group>"; };
 		3F3B1B0727A3FC34001DAFD1 /* VanillaSwiftUIToTCAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VanillaSwiftUIToTCAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F3B1B1727A3FC6B001DAFD1 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		3F3B1B1A27A3FC92001DAFD1 /* LoginSceneMVVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSceneMVVM.swift; sourceTree = "<group>"; };
+		3F3B1B1F27A400B1001DAFD1 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		3F3B1B2627A403FF001DAFD1 /* HomeScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScene.swift; sourceTree = "<group>"; };
+		3F3B1B2827A43859001DAFD1 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		3F3B1B2A27A439FF001DAFD1 /* LoginSceneTCA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSceneTCA.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3B1B2327A40390001DAFD1 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +106,10 @@
 		3F3B1AE927A3FC24001DAFD1 /* VanillaSwiftUIToTCA */ = {
 			isa = PBXGroup;
 			children = (
+				3F3B1B1627A3FC5B001DAFD1 /* UIComponents */,
+				3F3B1B1E27A400A3001DAFD1 /* Services */,
+				3F3B1B2527A403D0001DAFD1 /* Features */,
 				3F3B1AEA27A3FC24001DAFD1 /* VanillaSwiftUIToTCAApp.swift */,
-				3F3B1AEC27A3FC24001DAFD1 /* ContentView.swift */,
 				3F3B1AEE27A3FC33001DAFD1 /* Assets.xcassets */,
 				3F3B1AF027A3FC33001DAFD1 /* Preview Content */,
 			);
@@ -127,6 +141,49 @@
 			path = VanillaSwiftUIToTCAUITests;
 			sourceTree = "<group>";
 		};
+		3F3B1B1627A3FC5B001DAFD1 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B1B1727A3FC6B001DAFD1 /* ActivityIndicator.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		3F3B1B1927A3FC87001DAFD1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B1B1A27A3FC92001DAFD1 /* LoginSceneMVVM.swift */,
+				3F3B1B2827A43859001DAFD1 /* ErrorView.swift */,
+				3F3B1B2A27A439FF001DAFD1 /* LoginSceneTCA.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3F3B1B1E27A400A3001DAFD1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B1B1F27A400B1001DAFD1 /* LoginService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3F3B1B2427A403CB001DAFD1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B1B2627A403FF001DAFD1 /* HomeScene.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3F3B1B2527A403D0001DAFD1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3F3B1B2427A403CB001DAFD1 /* Home */,
+				3F3B1B1927A3FC87001DAFD1 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +200,9 @@
 			dependencies = (
 			);
 			name = VanillaSwiftUIToTCA;
+			packageProductDependencies = (
+				3F3B1B2227A40390001DAFD1 /* ComposableArchitecture */,
+			);
 			productName = VanillaSwiftUIToTCA;
 			productReference = 3F3B1AE727A3FC24001DAFD1 /* VanillaSwiftUIToTCA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +275,9 @@
 				Base,
 			);
 			mainGroup = 3F3B1ADE27A3FC24001DAFD1;
+			packageReferences = (
+				3F3B1B2127A40390001DAFD1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 3F3B1AE827A3FC24001DAFD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +320,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3B1AED27A3FC24001DAFD1 /* ContentView.swift in Sources */,
+				3F3B1B1C27A3FC92001DAFD1 /* LoginSceneMVVM.swift in Sources */,
+				3F3B1B2927A43859001DAFD1 /* ErrorView.swift in Sources */,
+				3F3B1B2027A400B1001DAFD1 /* LoginService.swift in Sources */,
+				3F3B1B1827A3FC6B001DAFD1 /* ActivityIndicator.swift in Sources */,
+				3F3B1B2727A403FF001DAFD1 /* HomeScene.swift in Sources */,
 				3F3B1AEB27A3FC24001DAFD1 /* VanillaSwiftUIToTCAApp.swift in Sources */,
+				3F3B1B2B27A439FF001DAFD1 /* LoginSceneTCA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +495,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +525,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -585,6 +655,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F3B1B2127A40390001DAFD1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F3B1B2227A40390001DAFD1 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F3B1B2127A40390001DAFD1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3F3B1ADF27A3FC24001DAFD1 /* Project object */;
 }
